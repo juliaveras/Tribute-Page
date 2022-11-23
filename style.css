@@ -1,0 +1,234 @@
+body {
+  background-color: #191C36;
+}
+.cabecalho {
+  background-color: #1E2B40;
+  display: flex;
+  justify-content:space-between;
+  padding: 8px 16px;
+}
+.titulo-pagina {
+  color: aliceblue;
+  font-family: monospace;
+  font-size: 24px;
+  align-self: center;
+}
+.sub-titulo-pagina{
+  color: darkgrey;
+  font-family: monospace;
+  font-size: 16px;
+  align-self: center;
+}
+
+.principal{
+  background-color: #191C36;
+  padding: 24px 16px;
+}
+.conteudo-principal {
+  background-color: #191C36;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+@media screen and (min-width:1440px) {
+  .conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px;
+  }
+}
+.foto-principal {
+  border-radius: 20px;
+  width: 300px;
+  align-self: center;
+  box-shadow: 0px 4px 4px rgba(235, 190, 190, 0.16);
+  
+}
+@media screen and (min-width:1440px) {
+  .foto-principal {
+    width: 450px;
+    align-self: center;
+    box-shadow: 0px 4px 4px rgba(235, 190, 190, 0.16);
+    
+  }
+}
+.paragrafo-principal {
+  font-size: 18px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
+  text-shadow: 4px 4px 5px black;
+  text-align: center;
+  padding: 16px;
+}
+@media screen and (min-width:1440px) {
+  .paragrafo-principal{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 32px;
+    width: 50%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    text-shadow: 4px 4px 5px black;
+    padding: 16px;
+  }
+  
+}
+.sobre-pantera-negra {
+  background-color: #d8dae9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 16px;
+  
+}
+.titulo-sobre {
+  align-self: center;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 20px;
+}
+.foto-secundaria {
+  width: 300px;
+  
+  align-self: center;
+  box-shadow: 0px 4px 4px rgba(235, 190, 190, 0.16);
+  padding: 8px;
+  border-radius: 20px;
+}
+.segundo-paragrafo {
+  font-size: 18px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
+  text-align: center;
+  padding: 16px;
+  text-align: justify;
+    text-justify: inter-word;
+}
+@media screen and (min-width:1440px) {
+  .sobre-pantera-negra{
+    background-color: #d8dae9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 20px;
+    width: 80%;
+  }
+  .segundo-paragrafo{
+    font-size: 32px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    text-align: center;
+    padding: 16px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    
+  }
+  .titulo-sobre{
+    align-self: center;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 42px;
+  }
+  .foto-secundaria{
+  width: 600px;
+  align-self: center;
+  box-shadow: 0px 4px 4px rgba(235, 190, 190, 0.16);
+  padding: 8px;
+  border-radius: 20px;
+  }
+  
+}
+@media screen and (min-width:1440px) {
+  .corpo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+}
+
+
+.sobre-futuro {
+  background-color: #d8dae9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 16px;
+  
+}
+
+.titulo-futuro {
+  align-self: center;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 20px;
+}
+.foto-terceira {
+  width: 300px;
+  
+  align-self: center;
+  box-shadow: 0px 4px 4px rgba(235, 190, 190, 0.16);
+  padding: 8px;
+  border-radius: 20px;
+}
+.terceiro-paragrafo {
+  font-size: 16px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 16px;
+}
+@media screen and (min-width:1440px) {
+  .sobre-futuro{
+    background-color: #d8dae9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 20px;
+    width: 80%;
+  }
+  .terceiro-paragrafo{
+    font-size: 32px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    text-align: center;
+    padding: 16px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    
+  }
+  .titulo-futuro{
+    align-self: center;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 42px;
+  }
+  .foto-terceira{
+    width: 600px;
+    align-self: center;
+    box-shadow: 0px 4px 4px rgba(235, 190, 190, 0.16);
+    padding: 8px;
+    border-radius: 20px;
+    }
+}
